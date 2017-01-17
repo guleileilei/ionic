@@ -1,0 +1,18 @@
+<ion-view view-title="我的音乐" id="music">
+    <ion-content class="has-header dark-bg">
+        <ion-list>
+            <h2>我的音乐</h2>
+            <div class="card" ng-repeat="myMusic in myMusics">
+
+                <ion-item>
+                    <h2 style="color: #28a54c">{{myMusic.Serial}}</h2>
+                    <p style="color: #e42112">{{myMusic.musicName}}</p>
+                    <audio ng-src="{{myMusic.radio}}" controls></audio>
+                </ion-item>
+
+            </div>
+
+
+        </ion-list>
+    </ion-content>
+</ion-view>

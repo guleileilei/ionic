@@ -1,0 +1,32 @@
+<ion-view view-title="静密" id="enter">
+    <ion-slide-box class="has-header">
+        <ion-slide class="item item-image">
+            <img src="images/tour1.png"/>
+        </ion-slide>
+        <ion-slide class="item item-image">
+            <img src="images/tour2.png"/>
+        </ion-slide>
+        <ion-slide class="item item-image">
+            <img src="images/tour3.png"/>
+        </ion-slide>
+        <ion-slide class="dark-bg login">
+            <div class="list">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">账号:</span>
+                    <input type="email" ng-model="data.email" placeholder="邮箱">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">密码:</span>
+                    <input type="password" ng-model="data.password" placeholder="6位密码" ng-minlength="6">
+                </label>
+                <button ng-disabled="!data.email || !data.password"
+                        ng-click="login()"
+                        ui-sref="tabs.home"
+                        class="button button-full button-energized">
+                    Enter
+                </button>
+            </div>
+
+        </ion-slide>
+    </ion-slide-box>
+</ion-view>

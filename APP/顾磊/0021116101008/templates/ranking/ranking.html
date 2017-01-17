@@ -1,0 +1,27 @@
+<ion-view view-title="我的排名">
+
+        <div class="tabs has-header tabs-striped tabs-icon-left" style="background-color: transparent;">
+            <a class="tab-item dark">
+                <i class="icon ion-arrow-graph-up-right"></i>今日排行
+            </a>
+            <a class="tab-item calm">
+                <i class="icon ion-transgender"></i>本周哦排行
+            </a>
+            <a class="tab-item assertive">
+                <i class="icon ion-arrow-graph-up-left"></i>本月排行
+            </a>
+        </div>
+
+        <ion-content class="has-tabs">
+            <div class="card" ng-repeat="item in items">
+                <ion-item>
+                    <h1 style="color: #25C2B7">{{item.desc}}</h1>
+                    <div class="item item-avatar"><img ng-src="{{item.imgsrc}}"/></div>
+                    <h2>{{item.name}}</h2>
+                    <p>{{item.addres}}</p>
+
+                </ion-item>
+
+            </div>
+        </ion-content>
+</ion-view>

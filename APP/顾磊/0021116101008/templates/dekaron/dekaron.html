@@ -1,0 +1,18 @@
+<ion-view view-title="挑战活动">
+    <ion-content>
+        <ion-list>
+        <ion-refresher pulling-text="下拉刷新"
+                       pulling-icon="icon ion-fork"
+                       on-pulling="doRefresh()"></ion-refresher>
+        <div class="card" ng-repeat="item in items">
+            <ion-item>
+                <h2>{{item.title}}</h2>
+                <p>{{item.desc}}</p>
+            </ion-item>
+            <ion-item class="item-image">
+                <img ng-src="{{item.imgsrc}}"/>
+            </ion-item>
+        </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

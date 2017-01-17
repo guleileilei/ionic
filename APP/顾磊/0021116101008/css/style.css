@@ -1,0 +1,252 @@
+#bj ion-item {
+    background-image: url("../images/bj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#bj ion-item img {
+    width: 25%;
+    height: 25%;
+    transition: all 2s;
+}
+
+#bj ion-item img:hover {
+    transform: scale(1.1)
+}
+
+#bj ion-item h5 {
+    color: #fff;
+    font-size: 30px;
+}
+
+#bj ion-item span {
+    font-size: 40px;
+}
+
+#bj .grade {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    transition: all 5s;
+}
+
+#bj p {
+    color: #fff
+}
+
+a {
+    text-decoration: none
+}
+
+#bj .list p {
+    color: #818181;
+    font-size: 15px;
+}
+
+#bj .list i {
+    font-size: 48px;
+    padding-right: 10px;
+}
+
+#bj .list span {
+    font-size: 10px;
+    color: #B9B9B9;
+    margin-left: 50px;
+}
+
+#grade .line {
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    transform: rotate(23deg)
+}
+
+#grade .gd p:nth-child(1) {
+    color: #fff;
+    font-size: 36px
+}
+
+#grade .gd p:nth-child(1) span {
+    font-size: 12px;
+}
+
+#grade .gd p:nth-child(3) {
+    background-image: url("../images/lv5@2x.png");
+    height: 50px;
+    width: 102px;
+    line-height: 50px;
+    text-align: center;
+    color: #297AA0;
+    margin-left: 10%;
+}
+
+#grade .gd p:nth-child(4) {
+    background-image: url("../images/lv4@2x.png");
+    height: 38px;
+    width: 90px;
+    line-height: 50px;
+    text-align: center;
+    color: #297AA0;
+    margin-left: 30%;
+}
+
+#grade .gd p:nth-child(5) {
+    background-image: url("../images/lv3@2x.png");
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    color: #297AA0;
+    margin-left: 50%;
+}
+
+#grade .gd p:nth-child(6) {
+    background-image: url("../images/lv2@2x.png");
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-left: 70%;
+}
+
+#grade .gd p:nth-child(7) {
+    background-image: url("../images/lv1@2x.png");
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-left: 90%
+}
+
+#grade .gd p:nth-child(8) {
+    height: 111px;
+    width: 111px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+
+#grade .gd p:nth-child(9) {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#grade .list {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+#grade .list li {
+    height: 130px;
+    margin: 30px 30px 0 30px;
+    background-color: #eee;
+    line-height: 130px;
+}
+
+#grade .list li img {
+    float: left;
+}
+
+#grade .list li p {
+    margin-left: 187px;
+    float: left;
+}
+
+#grade .list li span {
+    float: right;
+    font-size: 30px;
+    color: #444;
+    margin-right: 20px;
+}
+
+#grade .list li strong {
+    float: right;
+    color: #5599B9;
+    font-size: 80px;
+}
+
+#grade .lv {
+    width: 730px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 400px 0 15px 5px rgba(255, 30, 55, 0.8) inset;
+}
+
+#grade .txt {
+    width: 200px;
+    text-align: center;
+    background-color: #ccc;
+    margin: 50px auto;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+#weather .wbj {
+    background-image: url("../images/weather_bj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#weather .list .item {
+    background-color: transparent;
+    color: #ef473a;
+}
+
+#music h2 {
+    font-size: 24px;
+    color: #444;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#data .gr {
+    background-image: url("../images/grbj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+#data .gr .tou {
+    width: 110px;
+    height: 110px;
+    margin: 50px auto;
+}
+
+#activity .head {
+    margin: 0 auto;
+    height: 130px;
+    width: 120px;
+    text-align: center;
+    border: none;
+}
+#activity .digit{float: left; width: 100%}
+#activity .digit ul{width:2000px; margin: 0 auto;}
+#activity .digit li{
+    background-image: url("../images/digit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 102px;
+    width: 74px;
+    display: block;
+    float: left;;
+    line-height: 102px;
+    font-size:84px ;
+    color: #fff;
+    margin-left: 8px;
+}
+#enter .login{ background-image: url("../images/loginbj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;height: 1334px}
+

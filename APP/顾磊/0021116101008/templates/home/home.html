@@ -1,0 +1,64 @@
+
+<ion-view view-title="静密"  id="bj" >
+    <ion-content class=" has-header">
+        <ion-item class="item">
+            <p style="font-size: 24px">Joshson</p>
+            <img src="images/touxiang.jpg">
+
+            <a class=" item-button-right" ui-sref="tabs.grade">
+
+                <button class="button button-outline"><p class="grade">LV:1</p><i
+                        class="icon ion-chevron-right stable" style="padding-left: 20px"></i>
+
+                </button>
+
+            </a>
+
+            <a ui-sref="tabs.weather">
+
+                <h5>上海天气<span></span></h5>
+                <i class="icon ion-ios-sunny-outline stable icon-left" style="font-size: 30px;"></i>
+            </a>
+
+        </ion-item>
+        <div class="list">
+            <div class="row" style="text-align: center">
+                <div class="col" style="font-size: 12px; color: #818181">静坐时间</div>
+                <div class="col" style="font-size: 12px; color: #818181">已走步数</div>
+            </div>
+            <div class="row" style="text-align: center">
+                <div class="col" style="font-size: 10px; color: #B9B9B9">{{home.count}}min</div>
+                <div class="col" style="font-size: 10px; color: #B9B9B9">{{home1.count}}步</div>
+            </div>
+            <div class="row" style="text-align: center">
+                <div class="col" style="font-size: 45px; color: #1DC0EE">{{home.Percentage}}</div>
+                <div class="col" style="font-size: 45px; color: #1DC0EE">{{home1.Percentage}}</div>
+            </div>
+            <div class="row" style="text-align: center">
+                <div class="col" style="font-size: 10px; color: #B9B9B9">累计{{home.time}}小时</div>
+                <div class="col" style="font-size: 10px; color: #B9B9B9">累计{{home1.time}}万步</div>
+            </div>
+            <div class="row" style="text-align: center">
+                <div class="col" style="font-size: 12px; color: #818181">当前排名{{home.ranking}}</div>
+                <div class="col" style="font-size: 12px; color: #818181">微信排名{{home1.ranking}}</div>
+            </div>
+        </div>
+        <a class="item item-image"  ui-sref="tabs.activity">
+            <img src="images/activity.png">
+        </a>
+        <div class="list">
+            <a class="item item-button-right" ui-sref="tabs.data">
+                <i class="icon ion-ios-compose-outline energized"></i>我的个人信息</br><span>我的一些私人信息</span>
+                <button class="button button-clear"><i class="icon ion-chevron-right dark"></i></button>
+            </a>
+            <a class="item item-button-right" ui-sref="tabs.ranking">
+                <i class="ion-android-options calm"></i>我的排名</br><span>当前总排名</span>
+                <button class="button button-clear"><i class="icon ion-chevron-right dark"></i></button>
+            </a>
+            <a class="item item-button-right assertive" ui-sref="tabs.dekaron">
+                <i class="icon ion-flag"></i>我的挑战</br><span>我打破的记录</span>
+                <button class="button button-clear"><i class="icon ion-chevron-right dark"></i></button>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
